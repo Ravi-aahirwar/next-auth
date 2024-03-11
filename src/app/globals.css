@@ -1,0 +1,61 @@
+body {
+  background: black;
+}
+
+.outer-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-weight: 300;
+}
+
+.outer-div button {
+  padding: 9px 40px;
+  cursor: pointer;
+  border: 1px solid rgb(75, 75, 230);
+  color: white;
+  font-weight: 300;
+  font-size: medium;
+  border-radius: 5px;
+  background: rgb(13, 9, 71);
+}
+.outer-div button:hover{
+  background: rgb(16, 10, 105);
+}
+.user-div{
+  margin: auto;
+  padding: 10px 22px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 35px;
+  border-bottom: 1px solid darkblue;
+}
+.user-div h3{
+  color: white;
+}
+.user-div img{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+.user-name{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.user-name h3{
+  margin: 2px;
+  font-weight: lighter;
+  font-size: 1rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
